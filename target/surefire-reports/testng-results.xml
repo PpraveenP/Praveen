@@ -2,78 +2,78 @@
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T14:18:27 IST" name="Suite" finished-at="2023-08-23T14:18:34 IST" duration-ms="7079">
+  <suite started-at="2023-08-23T14:45:08 IST" name="Suite" finished-at="2023-08-23T14:45:15 IST" duration-ms="7603">
     <groups>
     </groups>
-    <test started-at="2023-08-23T14:18:27 IST" name="Test" finished-at="2023-08-23T14:18:34 IST" duration-ms="7079">
+    <test started-at="2023-08-23T14:45:08 IST" name="Test" finished-at="2023-08-23T14:45:15 IST" duration-ms="7603">
       <class name="Day5.ParsingXMLdata">
-        <test-method signature="ParsingXMLDataUsingResponse()[pri:0, instance:Day5.ParsingXMLdata@4facf68f]" started-at="2023-08-23T14:18:31 IST" name="ParsingXMLDataUsingResponse" finished-at="2023-08-23T14:18:32 IST" duration-ms="796" status="PASS">
+        <test-method signature="ParsingXMLDataUsingResponse()[pri:0, instance:Day5.ParsingXMLdata@4facf68f]" started-at="2023-08-23T14:45:12 IST" name="ParsingXMLDataUsingResponse" finished-at="2023-08-23T14:45:13 IST" duration-ms="926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParsingXMLDataUsingResponse -->
-        <test-method signature="ParsingXmlData()[pri:0, instance:Day5.ParsingXMLdata@4facf68f]" started-at="2023-08-23T14:18:32 IST" name="ParsingXmlData" finished-at="2023-08-23T14:18:32 IST" duration-ms="192" status="PASS">
+        <test-method signature="ParsingXmlData()[pri:0, instance:Day5.ParsingXMLdata@4facf68f]" started-at="2023-08-23T14:45:13 IST" name="ParsingXmlData" finished-at="2023-08-23T14:45:14 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ParsingXmlData -->
-        <test-method signature="testXMLResponse()[pri:0, instance:Day5.ParsingXMLdata@4facf68f]" started-at="2023-08-23T14:18:32 IST" name="testXMLResponse" finished-at="2023-08-23T14:18:32 IST" duration-ms="209" status="PASS">
+        <test-method signature="testXMLResponse()[pri:0, instance:Day5.ParsingXMLdata@4facf68f]" started-at="2023-08-23T14:45:14 IST" name="testXMLResponse" finished-at="2023-08-23T14:45:14 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testXMLResponse -->
       </class> <!-- Day5.ParsingXMLdata -->
       <class name="Day3.HeaderDemo">
-        <test-method signature="usingLog()[pri:0, instance:Day3.HeaderDemo@4ac3c60d]" started-at="2023-08-23T14:18:31 IST" name="usingLog" finished-at="2023-08-23T14:18:31 IST" duration-ms="627" status="PASS">
+        <test-method signature="usingLog()[pri:0, instance:Day3.HeaderDemo@4ac3c60d]" started-at="2023-08-23T14:45:12 IST" name="usingLog" finished-at="2023-08-23T14:45:12 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usingLog -->
       </class> <!-- Day3.HeaderDemo -->
       <class name="Day3.PathQuryParameter">
-        <test-method signature="getCookiesInf()[pri:0, instance:Day3.PathQuryParameter@31368b99]" started-at="2023-08-23T14:18:29 IST" name="getCookiesInf" finished-at="2023-08-23T14:18:30 IST" duration-ms="644" status="PASS">
+        <test-method signature="getCookiesInf()[pri:0, instance:Day3.PathQuryParameter@31368b99]" started-at="2023-08-23T14:45:11 IST" name="getCookiesInf" finished-at="2023-08-23T14:45:11 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCookiesInf -->
       </class> <!-- Day3.PathQuryParameter -->
       <class name="Day6.JsonSchemaValidation">
-        <test-method signature="validatingXmltoXsd()[pri:0, instance:Day6.JsonSchemaValidation@3911c2a7]" started-at="2023-08-23T14:18:30 IST" name="validatingXmltoXsd" finished-at="2023-08-23T14:18:31 IST" duration-ms="241" status="PASS">
+        <test-method signature="validatingXmltoXsd()[pri:0, instance:Day6.JsonSchemaValidation@3911c2a7]" started-at="2023-08-23T14:45:11 IST" name="validatingXmltoXsd" finished-at="2023-08-23T14:45:12 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingXmltoXsd -->
       </class> <!-- Day6.JsonSchemaValidation -->
       <class name="Day6.SerilizationDeserialization">
-        <test-method signature="deserialization()[pri:0, instance:Day6.SerilizationDeserialization@1725dc0f]" started-at="2023-08-23T14:18:30 IST" name="deserialization" finished-at="2023-08-23T14:18:30 IST" duration-ms="220" status="PASS">
+        <test-method signature="deserialization()[pri:0, instance:Day6.SerilizationDeserialization@1725dc0f]" started-at="2023-08-23T14:45:11 IST" name="deserialization" finished-at="2023-08-23T14:45:11 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deserialization -->
-        <test-method signature="serialization()[pri:0, instance:Day6.SerilizationDeserialization@1725dc0f]" started-at="2023-08-23T14:18:30 IST" name="serialization" finished-at="2023-08-23T14:18:30 IST" duration-ms="20" status="PASS">
+        <test-method signature="serialization()[pri:0, instance:Day6.SerilizationDeserialization@1725dc0f]" started-at="2023-08-23T14:45:11 IST" name="serialization" finished-at="2023-08-23T14:45:11 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serialization -->
       </class> <!-- Day6.SerilizationDeserialization -->
       <class name="Day4.PassingJSONResponceData">
-        <test-method signature="passingRespUsingJsonObject()[pri:0, instance:Day4.PassingJSONResponceData@635eaaf1]" started-at="2023-08-23T14:18:27 IST" name="passingRespUsingJsonObject" finished-at="2023-08-23T14:18:29 IST" duration-ms="2222" status="PASS">
+        <test-method signature="passingRespUsingJsonObject()[pri:0, instance:Day4.PassingJSONResponceData@635eaaf1]" started-at="2023-08-23T14:45:08 IST" name="passingRespUsingJsonObject" finished-at="2023-08-23T14:45:10 IST" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passingRespUsingJsonObject -->
       </class> <!-- Day4.PassingJSONResponceData -->
       <class name="Day5.FileUploadDownload">
-        <test-method signature="fileUpload()[pri:0, instance:Day5.FileUploadDownload@50b472aa]" started-at="2023-08-23T14:18:29 IST" name="fileUpload" finished-at="2023-08-23T14:18:29 IST" duration-ms="502" status="PASS">
+        <test-method signature="fileUpload()[pri:0, instance:Day5.FileUploadDownload@50b472aa]" started-at="2023-08-23T14:45:10 IST" name="fileUpload" finished-at="2023-08-23T14:45:11 IST" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fileUpload -->
       </class> <!-- Day5.FileUploadDownload -->
       <class name="Day1.HttpRequist">
-        <test-method signature="getUsers()[pri:0, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:18:32 IST" name="getUsers" finished-at="2023-08-23T14:18:32 IST" duration-ms="83" status="PASS">
+        <test-method signature="getUsers()[pri:0, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:45:14 IST" name="getUsers" finished-at="2023-08-23T14:45:14 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsers -->
-        <test-method signature="createUser()[pri:1, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:18:32 IST" name="createUser" finished-at="2023-08-23T14:18:33 IST" duration-ms="550" status="PASS">
+        <test-method signature="createUser()[pri:1, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:45:14 IST" name="createUser" finished-at="2023-08-23T14:45:15 IST" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="updateUSer()[pri:2, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:18:33 IST" name="updateUSer" finished-at="2023-08-23T14:18:33 IST" depends-on-methods="Day1.HttpRequist.createUser" duration-ms="337" status="PASS">
+        <test-method signature="updateUSer()[pri:2, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:45:15 IST" name="updateUSer" finished-at="2023-08-23T14:45:15 IST" depends-on-methods="Day1.HttpRequist.createUser" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUSer -->
-        <test-method signature="deleteUSer()[pri:3, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:18:33 IST" name="deleteUSer" finished-at="2023-08-23T14:18:34 IST" depends-on-methods="Day1.HttpRequist.updateUSer" duration-ms="364" status="PASS">
+        <test-method signature="deleteUSer()[pri:3, instance:Day1.HttpRequist@15c43bd9]" started-at="2023-08-23T14:45:15 IST" name="deleteUSer" finished-at="2023-08-23T14:45:15 IST" depends-on-methods="Day1.HttpRequist.updateUSer" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUSer -->
