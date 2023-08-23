@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="24" failed="7" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-23T14:12:30 IST" name="Suite" finished-at="2023-08-23T14:12:44 IST" duration-ms="14685">
+    <groups>
+    </groups>
+    <test started-at="2023-08-23T14:12:30 IST" name="Test" finished-at="2023-08-23T14:12:44 IST" duration-ms="14685">
+      <class name="Day5.ParsingXMLdata">
+        <test-method signature="ParsingXMLDataUsingResponse()[pri:0, instance:Day5.ParsingXMLdata@77fbd92c]" started-at="2023-08-23T14:12:38 IST" name="ParsingXMLDataUsingResponse" finished-at="2023-08-23T14:12:38 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParsingXMLDataUsingResponse -->
+        <test-method signature="ParsingXmlData()[pri:0, instance:Day5.ParsingXMLdata@77fbd92c]" started-at="2023-08-23T14:12:38 IST" name="ParsingXmlData" finished-at="2023-08-23T14:12:38 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParsingXmlData -->
+        <test-method signature="testXMLResponse()[pri:0, instance:Day5.ParsingXMLdata@77fbd92c]" started-at="2023-08-23T14:12:38 IST" name="testXMLResponse" finished-at="2023-08-23T14:12:38 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXMLResponse -->
+      </class> <!-- Day5.ParsingXMLdata -->
+      <class name="Day3.HeaderDemo">
+        <test-method signature="usingLog()[pri:0, instance:Day3.HeaderDemo@6069db50]" started-at="2023-08-23T14:12:36 IST" name="usingLog" finished-at="2023-08-23T14:12:37 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingLog -->
+      </class> <!-- Day3.HeaderDemo -->
+      <class name="Day8.UpdateUser">
+        <test-method signature="updateUser(org.testng.ITestContext)[pri:0, instance:Day8.UpdateUser@9597028]" started-at="2023-08-23T14:12:36 IST" name="updateUser" finished-at="2023-08-23T14:12:36 IST" duration-ms="77" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c31419f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null
+at Day8.UpdateUser.updateUser(UpdateUser.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- Day8.UpdateUser -->
+      <class name="Day3.PathQuryParameter">
+        <test-method signature="getCookiesInf()[pri:0, instance:Day3.PathQuryParameter@4550bb58]" started-at="2023-08-23T14:12:35 IST" name="getCookiesInf" finished-at="2023-08-23T14:12:35 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookiesInf -->
+      </class> <!-- Day3.PathQuryParameter -->
+      <class name="Day6.JsonSchemaValidation">
+        <test-method signature="validatingXmltoXsd()[pri:0, instance:Day6.JsonSchemaValidation@49139829]" started-at="2023-08-23T14:12:36 IST" name="validatingXmltoXsd" finished-at="2023-08-23T14:12:36 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingXmltoXsd -->
+      </class> <!-- Day6.JsonSchemaValidation -->
+      <class name="Day6.SerilizationDeserialization">
+        <test-method signature="deserialization()[pri:0, instance:Day6.SerilizationDeserialization@4ec4f3a0]" started-at="2023-08-23T14:12:35 IST" name="deserialization" finished-at="2023-08-23T14:12:36 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deserialization -->
+        <test-method signature="serialization()[pri:0, instance:Day6.SerilizationDeserialization@4ec4f3a0]" started-at="2023-08-23T14:12:36 IST" name="serialization" finished-at="2023-08-23T14:12:36 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serialization -->
+      </class> <!-- Day6.SerilizationDeserialization -->
+      <class name="Day7.Authendication">
+        <test-method signature="basicAuthendication()[pri:1, instance:Day7.Authendication@67c27493]" started-at="2023-08-23T14:12:38 IST" name="basicAuthendication" finished-at="2023-08-23T14:12:40 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthendication -->
+        <test-method signature="digestAuthendication()[pri:2, instance:Day7.Authendication@67c27493]" started-at="2023-08-23T14:12:40 IST" name="digestAuthendication" finished-at="2023-08-23T14:12:41 IST" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- digestAuthendication -->
+        <test-method signature="preempivetAuthendication()[pri:3, instance:Day7.Authendication@67c27493]" started-at="2023-08-23T14:12:41 IST" name="preempivetAuthendication" finished-at="2023-08-23T14:12:42 IST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preempivetAuthendication -->
+        <test-method signature="testBearerTokenAuthendication()[pri:3, instance:Day7.Authendication@67c27493]" started-at="2023-08-23T14:12:42 IST" name="testBearerTokenAuthendication" finished-at="2023-08-23T14:12:43 IST" duration-ms="540" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at Day7.Authendication.testBearerTokenAuthendication(Authendication.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBearerTokenAuthendication -->
+        <test-method signature="oAuth1Authendication()[pri:4, instance:Day7.Authendication@67c27493]" started-at="2023-08-23T14:12:43 IST" name="oAuth1Authendication" finished-at="2023-08-23T14:12:43 IST" duration-ms="24" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/github/scribejava/core/model/AbstractRequest]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/github/scribejava/core/model/AbstractRequest
+at io.restassured.internal.http.AuthConfig.oauth(AuthConfig.java:184)
+at io.restassured.internal.http.AuthConfig$oauth$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.authentication.OAuthScheme.authenticate(OAuthScheme.groovy:35)
+at io.restassured.authentication.AuthenticationScheme$authenticate.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.authentication.AuthenticationScheme$authenticate.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1199)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+at Day7.Authendication.oAuth1Authendication(Authendication.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.model.AbstractRequest
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+... 96 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oAuth1Authendication -->
+      </class> <!-- Day7.Authendication -->
+      <class name="Day2.JsonFile">
+        <test-method signature="createUser()[pri:0, instance:Day2.JsonFile@59662a0b]" started-at="2023-08-23T14:12:37 IST" name="createUser" finished-at="2023-08-23T14:12:37 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getSingleUser()[pri:1, instance:Day2.JsonFile@59662a0b]" started-at="2023-08-23T14:12:37 IST" name="getSingleUser" finished-at="2023-08-23T14:12:38 IST" depends-on-methods="Day2.JsonFile.createUser" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method signature="deleteUser()[pri:2, instance:Day2.JsonFile@59662a0b]" started-at="2023-08-23T14:12:38 IST" name="deleteUser" finished-at="2023-08-23T14:12:38 IST" depends-on-methods="Day2.JsonFile.getSingleUser" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Day2.JsonFile -->
+      <class name="Day4.PassingJSONResponceData">
+        <test-method signature="passingRespUsingJsonObject()[pri:0, instance:Day4.PassingJSONResponceData@7f0eb4b4]" started-at="2023-08-23T14:12:30 IST" name="passingRespUsingJsonObject" finished-at="2023-08-23T14:12:32 IST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingRespUsingJsonObject -->
+      </class> <!-- Day4.PassingJSONResponceData -->
+      <class name="Day7.FakerDataGenerete">
+        <test-method signature="fakedataGenerat()[pri:0, instance:Day7.FakerDataGenerete@8f4ea7c]" started-at="2023-08-23T14:12:30 IST" name="fakedataGenerat" finished-at="2023-08-23T14:12:30 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakedataGenerat -->
+      </class> <!-- Day7.FakerDataGenerete -->
+      <class name="Day2.Pojo">
+        <test-method signature="createUserUsingPojo()[pri:0, instance:Day2.Pojo@1a482e36]" started-at="2023-08-23T14:12:43 IST" name="createUserUsingPojo" finished-at="2023-08-23T14:12:43 IST" duration-ms="358" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[path cannot be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: path cannot be null
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+at io.restassured.path.json.JsonPath.createJsonAssertion(JsonPath.java:1014)
+at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+at Day2.Pojo.createUserUsingPojo(Pojo.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserUsingPojo -->
+        <test-method signature="getUser()[pri:1, instance:Day2.Pojo@1a482e36]" started-at="2023-08-23T14:12:43 IST" name="getUser" finished-at="2023-08-23T14:12:43 IST" depends-on-methods="Day2.Pojo.createUserUsingPojo" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Day2.Pojo.getUser() on instance Day2.Pojo@1a482e36 depends on not successfully finished methods 
+[Day2.Pojo.createUserUsingPojo() on instance Day2.Pojo@1a482e36]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Day2.Pojo.getUser() on instance Day2.Pojo@1a482e36 depends on not successfully finished methods 
+[Day2.Pojo.createUserUsingPojo() on instance Day2.Pojo@1a482e36]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="deleteUser()[pri:2, instance:Day2.Pojo@1a482e36]" started-at="2023-08-23T14:12:43 IST" name="deleteUser" finished-at="2023-08-23T14:12:43 IST" depends-on-methods="Day2.Pojo.getUser" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Day2.Pojo.deleteUser() on instance Day2.Pojo@1a482e36 depends on not successfully finished methods 
+[Day2.Pojo.getUser() on instance Day2.Pojo@1a482e36]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Day2.Pojo.deleteUser() on instance Day2.Pojo@1a482e36 depends on not successfully finished methods 
+[Day2.Pojo.getUser() on instance Day2.Pojo@1a482e36]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Day2.Pojo -->
+      <class name="Day1.HttpRequist">
+        <test-method signature="getUsers()[pri:0, instance:Day1.HttpRequist@72967906]" started-at="2023-08-23T14:12:43 IST" name="getUsers" finished-at="2023-08-23T14:12:43 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="createUser()[pri:1, instance:Day1.HttpRequist@72967906]" started-at="2023-08-23T14:12:43 IST" name="createUser" finished-at="2023-08-23T14:12:44 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="updateUSer()[pri:2, instance:Day1.HttpRequist@72967906]" started-at="2023-08-23T14:12:44 IST" name="updateUSer" finished-at="2023-08-23T14:12:44 IST" depends-on-methods="Day1.HttpRequist.createUser" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUSer -->
+        <test-method signature="deleteUSer()[pri:3, instance:Day1.HttpRequist@72967906]" started-at="2023-08-23T14:12:44 IST" name="deleteUSer" finished-at="2023-08-23T14:12:44 IST" depends-on-methods="Day1.HttpRequist.updateUSer" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUSer -->
+      </class> <!-- Day1.HttpRequist -->
+      <class name="Day2.CreateUserFromMultipleWay">
+        <test-method signature="createUserUsingJsonObject()[pri:0, instance:Day2.CreateUserFromMultipleWay@6adbc9d]" started-at="2023-08-23T14:12:33 IST" name="createUserUsingJsonObject" finished-at="2023-08-23T14:12:34 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserUsingJsonObject -->
+        <test-method signature="getUser()[pri:1, instance:Day2.CreateUserFromMultipleWay@6adbc9d]" started-at="2023-08-23T14:12:34 IST" name="getUser" finished-at="2023-08-23T14:12:35 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="deleteUser()[pri:3, instance:Day2.CreateUserFromMultipleWay@6adbc9d]" started-at="2023-08-23T14:12:35 IST" name="deleteUser" finished-at="2023-08-23T14:12:35 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Day2.CreateUserFromMultipleWay -->
+      <class name="Day8.GetUser">
+        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:Day8.GetUser@223191a6]" started-at="2023-08-23T14:12:36 IST" name="getUser" finished-at="2023-08-23T14:12:36 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c31419f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null
+at Day8.GetUser.getUser(GetUser.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- Day8.GetUser -->
+      <class name="Day8.CreateUser">
+        <test-method signature="createuser(org.testng.ITestContext)[pri:0, instance:Day8.CreateUser@1623b78d]" started-at="2023-08-23T14:12:32 IST" name="createuser" finished-at="2023-08-23T14:12:32 IST" duration-ms="176" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c31419f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Don't know how to encode {"gender":"male","name":"Mackenzie Von","email":"fred.moore@hotmail.com","status":"active"} as a byte stream.
+
+Please use EncoderConfig (EncoderConfig#encodeContentTypeAs) to specify how to serialize data for this content-type.
+For example: "given().config(RestAssured.config().encoderConfig(encoderConfig().encodeContentTypeAs("application.json", ContentType.TEXT))). .."]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Don't know how to encode {"gender":"male","name":"Mackenzie Von","email":"fred.moore@hotmail.com","status":"active"} as a byte stream.
+
+Please use EncoderConfig (EncoderConfig#encodeContentTypeAs) to specify how to serialize data for this content-type.
+For example: "given().config(RestAssured.config().encoderConfig(encoderConfig().encodeContentTypeAs("application.json", ContentType.TEXT))). .."
+at io.restassured.internal.http.EncoderRegistry.encodeStream(EncoderRegistry.java:132)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1022)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1222)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.Closure.call(Closure.java:418)
+at io.restassured.internal.http.HTTPBuilder$RequestConfigDelegate.setBody(HTTPBuilder.java:1134)
+at io.restassured.internal.http.HTTPBuilder$RequestConfigDelegate.setPropertiesFromMap(HTTPBuilder.java:1046)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:344)
+at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1209)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at Day8.CreateUser.createuser(CreateUser.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+      </class> <!-- Day8.CreateUser -->
+      <class name="Day8.DeleteUser">
+        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:Day8.DeleteUser@5c33f1a9]" started-at="2023-08-23T14:12:32 IST" name="deleteUser" finished-at="2023-08-23T14:12:32 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c31419f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null
+at Day8.DeleteUser.deleteUser(DeleteUser.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Day8.DeleteUser -->
+      <class name="Day5.FileUploadDownload">
+        <test-method signature="fileUpload()[pri:0, instance:Day5.FileUploadDownload@c8c12ac]" started-at="2023-08-23T14:12:32 IST" name="fileUpload" finished-at="2023-08-23T14:12:33 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUpload -->
+      </class> <!-- Day5.FileUploadDownload -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

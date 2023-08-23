@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <!--   <class name="Day7.FakerDataGenerete"/>-->
+      <class name="Day4.PassingJSONResponceData"/>
+    <!--    <class name="Day8.DeleteUser"/>-->
+     <!--   <class name="Day8.CreateUser"/>-->
+      <class name="Day5.FileUploadDownload"/>
+    <!--  <class name="Day2.CreateUserFromMultipleWay"/> -->
+      <class name="Day3.PathQuryParameter"/>
+      <class name="Day6.SerilizationDeserialization"/>
+    <!--    <class name="Day8.GetUser"/>-->
+      <class name="Day6.JsonSchemaValidation"/>
+    <!--    <class name="Day8.UpdateUser"/>-->
+      <class name="Day3.HeaderDemo"/>
+   <!--     <class name="Day2.JsonFile"/>-->
+      <class name="Day5.ParsingXMLdata"/>
+    <!--    <class name="Day7.Authendication"/>-->
+     <!--   <class name="Day2.Pojo"/>-->
+      <class name="Day1.HttpRequist"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

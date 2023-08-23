@@ -1,0 +1,9 @@
+{
+   "name": "AppleBook",
+   "data": {
+      "year": 201,
+      "price": 184.99,
+      "CPU model": "Intel i9",
+      "Hard disk size": "3TB"
+   }
+}
